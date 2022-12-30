@@ -1,0 +1,162 @@
+@media screen and (max-width: 480px){
+    nav li a{
+        font-size: 18px;
+    }
+    .header .banner img{
+        width: 100%;
+        height: 100vh;
+    }
+    .Banner-text h3 {
+        font-size: 30px;
+      }
+      .Banner-text p {
+        font-size: 20px;
+      }
+      .Banner-text button {
+        padding: 6px 30px;
+        font-size: 15px;
+      }
+      
+    /* Menu */
+    .menu ul li{    
+        font-size: 23px;
+        padding: 5px 30px;
+        border-radius: 7px;  
+    }
+    .menu ul li:hover {
+        color: red;
+        background-color: rgb(107, 212, 212);
+    }
+    .menu h4 {
+        padding: 14px;
+        font-size: 18px;
+    }
+    .menu form p {
+        margin-left: 18px;
+        font-size: 15px;  
+    }
+    .menu form .price1 {
+        width: 50px;
+        padding: 3px 6px;
+        bottom: 2rem;
+        font-size: 15px;
+        margin-right: 10px;
+    } 
+    .aboutp1{
+        font-size: 19px;
+    }
+    .aboutp2 p{
+        font-size: 16px;
+    }
+    .aboutp3{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    
+.about .logo img{
+    width: 10%;
+    height: 8vh;
+    border-radius: 200px;
+  }
+    .about .banner img{
+        width: 97%;
+  height: 100vh;
+    }
+    /* Contact */
+    .paragraph {
+        /* font-size: 18px; */
+        margin-top: -17px;
+    }
+    
+    .paragraph .pfirst{
+        font-size: 14px; text-align: center; text-transform:uppercase; word-spacing: 8px; color: gray;
+        
+    }
+    .textleft{
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .textleft span{
+        color: black; font-size: 16px; word-spacing: 4px; 
+    }
+    .reserveText p{
+         font-size: 16px; 
+         margin-top: -17px;
+    }
+    .reserveText h3{
+        font-weight: 800;
+        font-size: 1.5rem;
+      }
+      .reserveText p{
+        position: relative;
+        margin-top: -1.4rem;
+        margin-left: 28%;
+        font-size: 0.7rem;
+      }
+      .formcontainer-box {
+        width: 20%;
+        position: relative;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    
+    input {
+        width: 100%;
+        text-align: center;
+        /* padding: 12px 0px; */
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .formcontainer-box button{
+        border-radius: 8px;
+        background-image: linear-gradient(to right,purple,skyblue);
+        color: white;
+        padding: 1px 10px;
+        margin-left: 0px;
+        font-size: 16px;
+        border: none;
+    }
+    .formcontainer button:hover {
+        background-image: linear-gradient(purple,skyblue);
+        color: black;
+    }
+    .mapcontainer{
+        width: 40%;
+        height: 30px;
+        margin-left: 50%;   
+        margin-top: 5rem;
+        position: relative;
+    }
+    .mapcontainer iframe{
+        width: 100%;
+        height: 200px; 
+    }
+    .footer{
+        height: 11vh;
+    } 
+    .footer h2{
+        padding-top: 23px;
+        font-size: 22px;
+        
+    }
+    .copyright{    
+        bottom: 8rem;
+    }
+    .footer p{
+        bottom: 1rem;
+    }
+    .footer .svg1{
+        bottom: 4rem;
+    }
+    .footer .svg2{
+      bottom: 5.7rem;
+      padding: 0 0.4rem;
+    }
+    .footer .svg3{
+        bottom: 7.4rem;
+    }
+    .footer .svg4{
+        padding: 0 0.4rem;
+        bottom: 9.1rem;
+    }   
+}
